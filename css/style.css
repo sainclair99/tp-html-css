@@ -46,7 +46,45 @@ header {
 
 /* -------------- Main style -------------- */
 main {
-  height: 400px;
+  margin: 20px 35px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.carte {
+  border: 1px solid #2e3440;
+  width: 500px;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.carte .titre {
+  border-left: 5px solid orange;
+  padding-left: 12px;
+  color: blue;
+}
+.carte:last-child .titre {
+  color: green;
+}
+.carte p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#conteneur-tech {
+  border-left: 2px solid orange;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+#conteneur-tech ul {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+#conteneur-tech ul li::marker {
+  color: orange;
+}
+#conteneur-tech li {
+  line-height: 1.6;
 }
 
 /* -------------- Footer style -------------- */
