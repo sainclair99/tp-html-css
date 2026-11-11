@@ -1,0 +1,55 @@
+/* reset */
+* {
+  margin: 0;
+}
+
+/* -------------- Header style -------------- */
+header {
+  background-color: midnightblue;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo .logo-img {
+  width: 80px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  height: 100%;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+/* -------------- Banner style -------------- */
+
+/* -------------- Main style -------------- */
+main {
+  height: 400px;
+}
+
+/* -------------- Footer style -------------- */
+footer {
+  background-color: midnightblue;
+  /* marge intérieure : vertical horizontal */
+  padding: 16px 0px;
+}
+
+.f-text {
+  color: white;
+  text-align: center;
+}
