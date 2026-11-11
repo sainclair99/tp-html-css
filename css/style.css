@@ -5,11 +5,14 @@
 
 /* -------------- Header style -------------- */
 header {
-  background-color: midnightblue;
+  background-color: #2e3440;
   color: #fff;
   display: flex;
   justify-content: space-between;
   padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .logo {
@@ -36,6 +39,10 @@ header {
 }
 
 /* -------------- Banner style -------------- */
+#banner {
+  height: 250px;
+  background: url(../images/banner.png);
+}
 
 /* -------------- Main style -------------- */
 main {
@@ -44,7 +51,7 @@ main {
 
 /* -------------- Footer style -------------- */
 footer {
-  background-color: midnightblue;
+  background-color: #2e3440;
   /* marge intérieure : vertical horizontal */
   padding: 16px 0px;
 }
